@@ -1,0 +1,20 @@
+<registry>
+
+    <record name="collective.slogans">
+    <value>
+        <element key="fr">Vive monsieur Slogan.
+            A mort, monsieur Slogan.
+            Un troisième slogan
+        </element>
+        <element key="en">Long life mister Slogan.
+            Let's kill mister Slogan.
+            A third slogan 
+        </element>
+        <element key="nl">Leve meneer Slogan.
+            Meneer Slogan is beter dood.
+            Een derde slogan
+        </element>
+    </value>
+    </record>
+</registry>
+

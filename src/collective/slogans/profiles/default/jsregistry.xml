@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<object name="portal_javascripts">
+    <javascript cacheable="True" compression="safe" cookable="True"
+                enabled="True" id="++resource++collective.slogans/jquery-scroller-v1.min.js" inline="False"
+                expression=""
+                insert-after="++resource++plone.app.jquerytools.js"
+                />
+    <javascript cacheable="True" compression="safe" cookable="True"
+                enabled="True" id="++resource++collective.slogans/slogans.js" inline="False"
+                expression=""
+                insert-after="++resource++collective.slogans/jquery-scroller-v1.min.js"
+                />
+</object>

@@ -1,0 +1,2 @@
+<div class="slogan"><div class="scrollingtext" tal:content="view/slogan">My
+    slogan</div></div>

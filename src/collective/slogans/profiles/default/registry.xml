@@ -1,0 +1,12 @@
+<registry>
+
+    <record name="collective.slogans">
+    <field type="plone.registry.field.Dict">
+        <title>Slogans by language</title>
+        <key_type type="plone.registry.field.TextLine" />
+        <value_type type="plone.registry.field.Text" />
+    </field>
+    </record>
+
+</registry>
+

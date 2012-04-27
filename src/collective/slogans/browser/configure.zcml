@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="collective.slogans">
+
+   <browser:viewlet
+        name="collective.slogans"
+        manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+        class=".slogan.SloganViewlet"
+        template="slogan.pt"
+        permission="zope2.View"
+        />
+
+   <browser:resourceDirectory
+        name="collective.slogans"
+        directory="static"
+        layer=".interfaces.IThemeSpecific"
+        />
+
+</configure>

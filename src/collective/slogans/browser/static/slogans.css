@@ -1,0 +1,17 @@
+.slogan {
+    float: right;
+    margin-right: 2em;
+    margin-top: 1em;
+    padding: 0.2em 0.5em;
+    border: #CCC solid 1px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    height: 1.2em;
+    width: 10em;
+}
+
+.scrollingtext {
+		position: absolute;
+    white-space:nowrap;
+}
