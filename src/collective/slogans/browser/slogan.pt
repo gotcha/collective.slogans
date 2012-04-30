@@ -1,2 +1,4 @@
-<div class="slogan"><div class="scrollingtext" tal:content="view/slogan">My
+<div tal:define="slogan view/slogan"
+     tal:condition="slogan"
+     class="slogan"><div class="scrollingtext" tal:content="slogan">My
     slogan</div></div>
