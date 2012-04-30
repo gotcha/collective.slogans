@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.1a1 (unreleased)
+0.1a1 (2012-04-30)
 ------------------
 
 - Initial functionality.
