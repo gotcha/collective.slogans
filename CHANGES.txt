@@ -1,10 +1,13 @@
 Changelog
 =========
 
-0.1a2 (unreleased)
+0.1a2 (2012-06-27)
 ------------------
 
-- Nothing changed yet.
+- Use content type.
+  [gotcha]
+- Style with CSS3 transition.
+  [gotcha]
 
 
 0.1a1 (2012-04-30)
