@@ -5,12 +5,12 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="collective.slogans">
 
-  <five:registerPackage package="." initialize=".initialize" />
+  <genericsetup:registerProfile
+      name="default"
+      title="collective.slogans"
+      directory="profiles/default"
+      description="Installs the collective.slogans package"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
 
-  <include package="Products.GenericSetup" />
-  <include package="collective.js.prefixfree" />
-
-  <include package=".browser" />
-  <include file="profiles.zcml" />
-   
 </configure>

@@ -7,12 +7,20 @@
     position: relative;
     display: block;
     font-size: 90%;
-    /* height: 1.2em;
-    overflow: hidden;
-    width: 10em; */
+    animation: bubble 2s linear;
 }
 
-/*.scrollingtext {
-		position: absolute;
-    white-space:nowrap;
-}*/
+@keyframes bubble {
+    from  
+    {
+      font-size: 100%;
+    }
+    50%  
+    {
+      font-size: 120%;
+    }
+    to
+    {
+      font-size: 100%;
+    }
+}

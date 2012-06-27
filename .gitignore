@@ -11,3 +11,4 @@ buildout.cfg
 coverage
 .mr.developer.cfg
 robot-output
+devel

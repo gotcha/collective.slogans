@@ -34,7 +34,13 @@ setup(name='collective.slogans',
       install_requires=[
           'setuptools',
           'Plone',
-          'beautifulsoup4',
+          'collective.js.prefixfree',
       ],
-      extras_require={'test': ['plone.app.testing']},
+      extras_require=dict(
+          test=[
+          'plone.app.testing',
+          ],
+          robot=[
+          'plone.act',
+          ]),
       )
