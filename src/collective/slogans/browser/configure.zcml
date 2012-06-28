@@ -11,11 +11,12 @@
         class=".slogan.SloganViewlet"
         template="slogan.pt"
         permission="zope2.View"
+        layer=".interfaces.IThemeSpecific"
         />
 
-   <browser:resourceDirectory
-        name="collective.slogans"
-        directory="static"
+    <browser:resource 
+        name="slogan_icon.png" 
+        file="slogan_icon.png" 
         layer=".interfaces.IThemeSpecific"
         />
 

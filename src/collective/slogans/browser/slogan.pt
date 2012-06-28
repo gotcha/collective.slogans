@@ -3,9 +3,6 @@
      tal:condition="slogan"
      class="slogan"><a tal:condition="url" 
                        tal:attributes="href url"
-                       tal:content="slogan"
-                       class="scrollingtext">My slogan with link</a><div 
+                       tal:content="slogan">My slogan with link</a><div 
                        tal:condition="not:url" 
-                       class="scrollingtext" 
-                       tal:content="slogan">My
-       slogan</div></div>
+                       tal:replace="slogan">My slogan</div></div>
